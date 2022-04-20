@@ -28,7 +28,7 @@
                                 @else                                    
                                     <tr>
                                 @endif
-                                    <td>$loop->index</td>
+                                    <td>{{ $loop->index }}</td>
                                     <td>{{ $user->name }}</td>
                                     {{-- Task: only the FIRST row should have email with "font-bold" --}}
                                     <td class="font-bold">{{ $user->email }}</td>
